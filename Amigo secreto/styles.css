@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fdf6ec;
+    text-align: center;
+  }
+  
+  .topo {
+    background-color: #4a6cf7;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .topo img {
+    width: 80px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  main {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    color: #355C9C;
+  }
+  
+  .entrada {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .entrada input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid gray;
+  }
+  
+  .entrada button {
+    padding: 10px 15px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+  }
+  
+  .entrada button:hover {
+    background-color: #ddd;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+  }
+  
+  #resultado {
+    font-weight: bold;
+    margin-top: 15px;
+    color: green;
+  }
+  
+  .sortear {
+    margin-top: 20px;
+    background-color: #ff5a2d;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .sortear span {
+    margin-right: 5px;
+  }
+  
+  .sortear:hover {
+    background-color: #e24a1d;
+  }
